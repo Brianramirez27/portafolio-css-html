@@ -1,0 +1,242 @@
+@media (max-width: 710px){
+    /* responsive section header INICIO */
+        .header__titulo h1{
+            font-size: 1.2rem;
+        }
+       .header__titulo h1:hover{
+            font-size: 1.5rem;
+        }
+    /* responsive section header FINAL *
+    
+    /* responsive section sobre mi inicio */
+        .sobre-mi__img img {
+            width: 15rem;
+            height: 20rem;
+            }
+        .sobre-mi__descrition{
+            margin-right: 1rem;
+            }
+    
+    /* responsive section sobre mi final */
+    
+    /* responsive section proyectos INICIO*/
+        .proyectos__carta{
+            height: 18rem;
+            width: 10rem;
+        }  
+        .proyectos__p{
+            font-size: 0.7rem;  
+        }
+        .proyectos__h3{
+          padding-bottom: 0;
+        }
+          
+    /* responsive section proyectos FINAL*/
+    
+    /* responsive section proyectos SKILLS*/
+    
+    .teg__carta{
+        width: 6rem;
+        height: 6rem;
+    
+    }
+    
+    .teg__carta:hover h2{
+        font-size: 1rem;
+    
+    }
+    
+    /* responsive section proyectos SKILLS*/
+    
+    /* responsive section proyectos CONTAC INICIO*/
+    
+    .contac__a img{
+        width: 4rem;
+        height: 4rem;
+    }
+    
+    .contac__a img:hover{
+        width: 5rem;
+        height: 5rem;
+    }
+    
+    /* responsive section proyectos CONTAC FINAL*/  
+    
+    
+    }
+    /* responsive section proyectos  INICIO*/ 
+    
+    
+    
+    @media(max-width:550px){
+    
+        /* responsive section header  INICIO*/
+        .header__titulo button{
+            font-size: 0.7rem;
+    
+        }
+        .header__nav a{
+            font-size: 0.7rem;
+        }
+    
+        .header__nav a:hover{
+            font-size: 0.8rem;
+        }
+     /* responsive section header  Final*/
+        .sobre-mi__img {
+            display: none;
+        
+        }
+    /* responsive section sobre-mi  INICIO*/
+    
+        #sobre-mi{
+            height:30rem;
+        }
+        .sobre-mi__descrition {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            margin:1rem;
+        }
+    
+    /* responsive section sobre-mi  Final*/
+    
+    /* responsive section proyectos  INICIO*/
+        #proyectos{
+            height: 80rem;
+        }
+        .proyectos__title{
+            font-size: 1rem;
+        }
+    
+        .proyectos__mazo-1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+       
+        .proyectos__carta{
+            height: 10rem;
+            width: 100%;
+            margin: 0.8rem;
+            border: blueviolet 0.4rem solid;
+        }
+    
+        .proyectos__mazo-2{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    
+        .proyectos__h3 {
+            font-size: 0.8rem;
+            padding-top: 0.6rem;
+        }
+        .proyectos__p{
+            padding-top: 0.8rem;
+        }
+    
+        .proyectos__button{
+            font-size: 0.6rem;
+        }
+        
+    /* responsive section proyectos  FINAL*/  
+    
+    
+    /* responsive section SKILLS  INICIO*/ 
+    
+    #tegnologias{
+        height: 35rem;
+    }
+    .tegnologias__h3{
+        font-size: 1.5rem;
+    }
+    
+    .teg__carta {
+        width: 4.8rem;
+        height: 4.8rem;
+      }
+    
+      .teg__carta:hover h2{
+           font-size: 0.8rem;
+    
+    }
+    
+    
+    /* responsive section SKILLS  FINAL*/ 
+    
+    
+    /* responsive section contac  INICIO*/
+    #contac{
+        height: 10rem;
+    }
+    .contac__a img{
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    .contac__a img:hover{
+        width: 4rem;
+        height: 4rem;
+    }
+    /* responsive section contac  FINAL*/
+    
+    /* responsive section FUTTER  INICIO*/
+    #footer{
+        height: 4rem;
+    }
+    .footer__p {
+        font-size: 1.5rem;
+    }
+     /* responsive section FUTTER  FINAL*/
+    
+    
+    
+    }
+      
+    
+    @media(max-width:427px){
+    
+
+        /* responsive section header INICIO*/
+        .check-img{
+            left: 0;
+            position: absolute;
+            display: block;
+            z-index: 2;
+            
+           
+        }
+ 
+         ul{
+            top: 0;
+            left: 0;
+            position: absolute;
+            background-color: rgba(30,30,30);
+            width: 100%;
+            height: 15rem;
+            display: flex;
+            flex-direction: column;
+            z-index: 1;
+            transform: translateX(-200%)
+    
+        }
+
+
+        #check:checked ~ ul{
+            transform: translateX(0%)
+        }
+
+        .header__nav a:hover{
+            text-decoration:underline;
+            color: white;
+            font-size:1rem;
+            border-radius: 5rem;
+            transition: all 300ms;
+            
+        }
+
+        /* responsive section header FINAL*/
+        
+    }

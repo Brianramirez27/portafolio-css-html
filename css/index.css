@@ -1,0 +1,459 @@
+/* modificaciones de toda la pagina web */
+
+*{
+    font-family:Arial;
+    margin: 0; 
+    padding: 0; 
+    box-sizing:border-box;
+    
+   
+}
+
+html{
+    scroll-behavior: smooth;
+    
+   
+}
+
+
+/* modificaciones de  elemntos generales INICIO*/
+
+button{
+    font-size: 1rem;  
+    font-weight: bold;
+    padding: 0.5rem 0.5rem;
+    border-radius: 10rem 10rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem;
+    color:black;
+    background-color:blueviolet;
+    display: inline-flex;
+    transition: all 400ms;
+}
+
+button:hover{
+    color: white;
+}
+
+/* modificaciones de  elemntos generales FINAL*/
+
+
+/* modificacion del header  INICIO  */
+
+#header{
+    position: relative;
+    align-items: center;
+    width: 100%;
+    height: 35rem;  
+    overflow: hidden;
+    
+}
+
+.header__container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+video{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover 
+    
+}
+
+.header__nav{
+    background-color:white;
+    position: fixed;
+    width: 100%;
+    height:3rem ;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+       
+}
+ul{
+    width: 100%;
+    height: 100%;
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    
+}
+
+.nav__link{
+    color:blueviolet;
+    text-decoration: none;
+}
+
+
+.header__nav a:hover{
+    text-decoration:underline;
+    color: black;
+    font-size:1rem;
+    border-radius: 5rem;
+    transition: all 300ms;
+    
+}
+
+#check{
+    display: none;
+}
+
+.check-img{
+    font-size: 1.5rem;
+    padding-left: 0.7rem;
+    display:none;
+    
+    
+}
+
+
+.header__titulo{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    
+}
+.header__titulo h1{
+    font-size: 1.8rem;
+    padding: 2rem;
+    transition: all 400ms;
+}
+
+.header__titulo h1:hover{
+    font-size: 2.2rem;
+}
+
+.header__titulo button{
+    font-size: 1rem;
+    padding:0.5  1.5rem ;  
+}
+
+/* modificacion del header  FINAL  */
+
+
+/* modificacion de section sobre mi INICIO */
+
+.sobre-mi__nombre{ color:blueviolet;}
+
+#sobre-mi {
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.sobre-mi__container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+.sobre-mi__img{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    overflow: hidden;
+
+
+}
+
+.sobre-mi__img img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:auto;
+    width: 20rem;
+    height:25rem;
+    border: 1rem blueviolet solid;
+}
+ .sobre-mi__descrition{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin: auto;
+     width: 50%;
+     height: 100%;   
+     overflow: hidden;
+     margin-right: 4rem;
+ }
+ 
+ .sobre-mi__p{
+     margin-top: 2rem; 
+ }
+
+ .sobre-mi__h1{
+     text-align: center;
+ }
+/* modificacion de section sobre mi FINAL */
+
+ /* modificacion de section nuestros proyectos  INICIO */
+ #proyectos{
+    width: 100%;
+    height: 50rem;
+    background-color: rgba(30,30,30);
+    color: white;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+.proyectos___container{
+    width:100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.proyectos__mazo-1{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;  
+    
+}
+
+.proyectos__carta{
+    overflow: hidden;
+    background-color: white;
+    border-radius: 2rem;
+    border:blueviolet 0.6rem solid;
+    text-align: center;
+    height:19rem ;
+    width: 13rem;   
+    
+}
+.proyectos__carta:hover{
+    
+    border: white 0.6rem solid;
+    background-color: blueviolet;   
+}
+
+
+.proyectos__mazo-2{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    
+    justify-content:space-around;
+      
+}
+
+.proyectos__title {
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    
+}
+.proyectos__h3{
+    color: black;
+    font-size: 1rem;
+    padding: 0.8rem;
+
+}
+
+.proyectos__carta:hover .proyectos__h3{
+    animation: proyectos__h3 400ms  linear ;
+    
+}
+
+@keyframes proyectos__h3{
+
+    from{
+        transform: translatey(-200%);
+    }
+
+    to{
+        transform: translatey(0%);
+    }
+}
+
+
+.proyectos__p{
+    color: black;
+    padding: 1rem;
+    font-size: 0.8rem;
+    
+}
+
+
+.proyectos__carta:hover .proyectos__p{
+    animation: proyectos__p 400ms linear;
+
+}
+
+
+@keyframes proyectos__p{
+    from{
+        transform: translatey(-400%);
+    }
+    to{
+        transform: translateY(0%);
+    }
+
+}
+
+
+
+.proyectos__carta:hover .proyectos__button{
+    color: black;
+    background-color: aliceblue;
+    animation: proyectos__button 400ms linear
+}
+
+
+@keyframes proyectos__button{
+
+    from{
+        transform: translateX(-400%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+
+/* modificacion de section nuestros proyectos  FINAL*/
+
+
+
+/* modificacion de section tegnoligias  INICIO*/
+
+#tegnologias{
+    width: 100%;
+    height: 50rem;
+   
+}
+.tegnologias__container{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    overflow: hidden;
+    
+    
+}
+
+.tegnologias__h3 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 2rem;
+
+}
+
+.tegnologias__1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+      
+}
+
+.tegnologias__2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.teg__carta{
+    background-color: rgba(30,30,30);
+    width: 7rem;
+    height: 7rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    transition: all 400ms;
+}
+.teg__carta:hover{
+    background-color:white;
+}
+
+
+.teg__carta h2{
+    position:absolute;
+    display: none;
+    transition: all 400ms;
+    
+    
+}
+.teg__carta:hover h2{
+    display:flex;
+    font-weight: bold;
+    padding-bottom: 10rem;
+    padding-left: 1rem;
+
+    
+    
+    
+}
+ /* modificacion de section contac INICIO*/ 
+#contac{
+    width: 100%;
+    height: 16rem;
+}
+
+.contac__container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(30,30,30);
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    overflow: hidden;
+}
+
+.contac__a img{
+    margin: auto;
+    width: 5rem;
+    height: 5rem;
+}
+.contac__a img:hover{
+    width: 6rem;
+    height: 6rem;
+
+}
+/* modificacion de section contac FINAL*/ 
+
+/* modificacion de section footer  INICIO*/
+
+#footer{
+    width:100%;
+    height: 5rem;
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+}
+.footer__p{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* modificacion de section footer  FINAL*/
