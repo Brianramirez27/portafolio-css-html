@@ -228,15 +228,13 @@
             transform: translateX(0%)
         }
 
-        .header__nav a:hover{
-            text-decoration:underline;
-            color: white;
-            font-size:1rem;
-            border-radius: 5rem;
-            transition: all 300ms;
-            
-        }
 
+        .header__nav a:hover {
+            width: 100%;
+            color: white;
+            
+          }
+       
         /* responsive section header FINAL*/
         
     }
