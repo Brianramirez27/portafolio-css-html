@@ -249,10 +249,13 @@ ul{
     text-align: center;
     height:19rem ;
     width: 13rem;   
-    
+    font-weight: bold;
+}
+.one{
+    background-image:url("/imagenes/bloc-1.jpg");
 }
 .proyectos__carta:hover{
-    
+    background-image: none;
     border: white 0.6rem solid;
     background-color: blueviolet;   
 }
@@ -394,8 +397,10 @@ ul{
     border-radius: 2rem;
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    align-items:center;
+    justify-content: center;
     transition: all 400ms;
+    overflow: hidden;
 }
 .teg__carta:hover{
     background-color:white;
@@ -404,21 +409,25 @@ ul{
 
 .teg__carta h2{
     position:absolute;
-    
     display: none;
     transition: all 400ms;
     
-    
 }
 .teg__carta:hover h2{
+    width: 7rem;
+    height: 10rem;
     display:flex;
+    justify-content: center;
+    padding-bottom: 8rem;
     font-weight: bold;
-    padding-bottom: 10rem;
-    padding-left: 1rem;
-
     
-    
-    
+   
+}
+.teg__carta img{
+    display: inline-flex;
+    justify-content: center;
+    width: 6rem;
+    height: 6rem;
 }
  /* modificacion de section contac INICIO*/ 
 #contac{
