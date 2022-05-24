@@ -252,7 +252,7 @@ ul{
     font-weight: bold;
 }
 .one{
-    background-image:url("/imagenes/bloc-1.jpg");
+    background-image:url("./imagenes/bloc-1.jpg");
 }
 .proyectos__carta:hover{
     background-image: none;
