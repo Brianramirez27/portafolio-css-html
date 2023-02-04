@@ -188,9 +188,10 @@ ul{
     flex-direction: column;
     justify-content: center;
     margin:auto;
-    width: 20rem;
-    height:25rem;
-    border: 1rem blueviolet solid;
+    width:25rem;
+    height:20rem;
+    border: 0.3rem blueviolet solid;
+    box-shadow: 4px 4px 10px  blueviolet;
 }
  .sobre-mi__descrition{
      display: flex;
