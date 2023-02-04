@@ -11,17 +11,20 @@
     /* responsive section sobre mi inicio */
         .sobre-mi__img img {
             width: 15rem;
-            height: 20rem;
+            height: 15rem;
             }
         .sobre-mi__descrition{
             margin-right: 1rem;
             }
+        .sobre-mi__p{
+            font-size: medium;
+        }
     
     /* responsive section sobre mi final */
     
     /* responsive section proyectos INICIO*/
         .proyectos__carta{
-            height: 18rem;
+            height: 22rem;
             width: 10rem;
         }  
         .proyectos__p{
@@ -36,8 +39,8 @@
     /* responsive section proyectos SKILLS*/
     
     .teg__carta{
-        width: 6rem;
-        height: 6rem;
+        width: 4rem;
+        height: 4rem;
     
     }
     
@@ -47,8 +50,8 @@
     }
     .teg__carta img{
        
-        width: 5rem;
-        height: 5rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
    
     /* responsive section proyectos SKILLS*/
@@ -56,8 +59,8 @@
     /* responsive section proyectos CONTAC INICIO*/
     
     .contac__a img{
-        width: 4rem;
-        height: 4rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
     
     .contac__a img:hover{
@@ -68,11 +71,11 @@
     /* responsive section proyectos CONTAC FINAL*/  
     
     
-    }
+    
     /* responsive section proyectos  INICIO*/ 
     
     
-    
+}
     @media(max-width:550px){
     
         /* responsive section header  INICIO*/
@@ -104,63 +107,31 @@
             justify-content: center;
             margin:1rem;
         }
-    
+      */
     /* responsive section sobre-mi  Final*/
     
     /* responsive section proyectos  INICIO*/
-        #proyectos{
-            height: 80rem;
-        }
-        .proyectos__title{
-            font-size: 1rem;
-        }
-    
-        .proyectos__mazo-1{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-       
-        .proyectos__carta{
-            height: 10rem;
-            width: 100%;
-            margin: 0.8rem;
-            border: blueviolet 0.4rem solid;
-        }
-    
-        .proyectos__mazo-2{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-    
-        .proyectos__h3 {
-            font-size: 0.8rem;
-            padding-top: 0.6rem;
-        }
-        .proyectos__p{
-            padding-top: 0.8rem;
-        }
-    
-        .proyectos__button{
-            font-size: 0.6rem;
-        }
-        
+     
+    .proyectos__mazo-1{
+        gap: 1rem;
+    }
+
+
     /* responsive section proyectos  FINAL*/  
     
     
     /* responsive section SKILLS  INICIO*/ 
     
     #tegnologias{
-        height: 35rem;
+        height: 25rem;
     }
     .tegnologias__h3{
         font-size: 1.5rem;
     }
     
     .teg__carta {
-        width: 4.8rem;
-        height: 4.8rem;
+        width: 3rem;
+        height: 3rem;
     }
     
     .teg__carta:hover h2{
@@ -168,8 +139,8 @@
     
     }
     .teg__carta img{
-        width: 4rem;
-        height: 4rem;
+        width: 1.8rem;
+        height: 1.8rem;
     }
     
     /* responsive section SKILLS  FINAL*/ 
@@ -180,8 +151,8 @@
         height: 10rem;
     }
     .contac__a img{
-        width: 3rem;
-        height: 3rem;
+        width: 1.8rem;
+        height: 1.8rem;
     }
     
     .contac__a img:hover{
@@ -190,21 +161,12 @@
     }
     /* responsive section contac  FINAL*/
     
-    /* responsive section FUTTER  INICIO*/
-    #footer{
-        height: 4rem;
-    }
-    .footer__p {
-        font-size: 1.5rem;
-    }
-     /* responsive section FUTTER  FINAL*/
-    
     
     
     }
       
     
-    @media(max-width:427px){
+    @media(max-width:472px){
     
 
         /* responsive section header INICIO*/
@@ -245,4 +207,14 @@
        
         /* responsive section header FINAL*/
         
-    }
+        /* responsive proyectos  nicio*/
+
+        .verProyect img {
+            width: 1.7rem;
+       }
+       .verProyect p{
+        font-size: small;
+       }
+
+
+}
