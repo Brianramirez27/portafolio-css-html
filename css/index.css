@@ -119,7 +119,6 @@ ul{
     
 }
 
-
 .header__titulo{
     color: white;
     display: flex;
@@ -155,10 +154,13 @@ ul{
 
 #sobre-mi {
     width: 100%;
-    height: 50rem;
+    height: 30rem;
     display: flex;
     justify-content: center;
     overflow: hidden;
+    background-image: url(/imagenes/blanco3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .sobre-mi__container{
@@ -203,6 +205,7 @@ ul{
  
  .sobre-mi__p{
      margin-top: 2rem; 
+     font-size: large;
  }
 
  .sobre-mi__h1{
@@ -213,8 +216,11 @@ ul{
  /* modificacion de section nuestros proyectos  INICIO */
  #proyectos{
     width: 100%;
-    height: 50rem;
-    background-color: rgba(30,30,30);
+    height: 55rem;
+    background-image:linear-gradient(0deg,
+    rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(/imagenes/fondo3.jpg);
+    background-size: cover;
+    
     color: white;
     display: flex;
     justify-content: center;
@@ -241,24 +247,51 @@ ul{
     
 }
 
+
 .proyectos__carta{
     overflow: hidden;
-    background-color: white;
+    /* background-color: rgba(30,30,30); */
+    background-image:linear-gradient(0deg,
+    rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(/imagenes/blaco1.jpg);
     border-radius: 2rem;
-    border:blueviolet 0.6rem solid;
-    text-align: center;
-    height:19rem ;
-    width: 13rem;   
+    /* border:blueviolet 0.2rem solid; */
+    box-shadow: 4px 4px 10px  blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    height:22rem;
+    width: 12rem;   
     font-weight: bold;
 }
-.one{
-    background-image:url("../imagenes/bloc-1.jpg");
+.car_description{
+    padding: 0.4rem;
+    padding-top: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 0.5rem;
 }
-.proyectos__carta:hover{
+.cart_contac{
+    padding: 0.4rem;
+    display: flex;
+    gap: 3rem;
+}
+
+.img{
+    width:100%;
+    height: 9rem;
+}
+/* .one{
+    background-position: center;
+    background-image:url("../imagenes/img_proyectos/WhatsApp\ Image\ 2023-02-01\ at\ 10.05.06\ PM.jpeg");
+} */
+/* .proyectos__carta:hover{
     background-image: none;
-    border: white 0.6rem solid;
+    border: white 0.3rem solid;
     background-color: blueviolet;   
-}
+} */
 
 
 .proyectos__mazo-2{
@@ -276,18 +309,39 @@ ul{
     
 }
 .proyectos__h3{
-    color: black;
+    color: blueviolet;
     font-size: 1rem;
-    padding: 0.8rem;
+   
 
 }
+.verProyect {
+    /* position: absolute; */
+   /* position: relative; */
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+  
+}
+.verProyect p{
+    color: black;
+}
 
-.proyectos__carta:hover .proyectos__h3{
-    animation: proyectos__h3 400ms  linear ;
+
+ .verProyect img{
+    width:2.2rem;
+    
+} 
+.verProyect img:hover{
+    width:2.5rem;
     
 }
 
-@keyframes proyectos__h3{
+/* .proyectos__carta:hover .proyectos__h3{
+    animation: proyectos__h3 400ms  linear ;
+    
+} */
+
+/* @keyframes proyectos__h3{
 
     from{
         transform: translatey(-200%);
@@ -296,24 +350,23 @@ ul{
     to{
         transform: translatey(0%);
     }
-}
+} */
 
 
 .proyectos__p{
     color: black;
-    padding: 1rem;
     font-size: 0.8rem;
     
 }
 
 
-.proyectos__carta:hover .proyectos__p{
+/* .proyectos__carta:hover .proyectos__p{
     animation: proyectos__p 400ms linear;
 
-}
+} */
 
 
-@keyframes proyectos__p{
+/* @keyframes proyectos__p{
     from{
         transform: translatey(-400%);
     }
@@ -321,17 +374,17 @@ ul{
         transform: translateY(0%);
     }
 
-}
+} */
 
 
 
-.proyectos__carta:hover .proyectos__button{
+/* .proyectos__carta:hover .proyectos__button{
     color: black;
     background-color: aliceblue;
     animation: proyectos__button 400ms linear
-}
+} */
 
-
+/* 
 @keyframes proyectos__button{
 
     from{
@@ -340,7 +393,7 @@ ul{
     to{
         transform: translateX(0%);
     }
-}
+} */
 
 /* modificacion de section nuestros proyectos  FINAL*/
 
@@ -350,11 +403,12 @@ ul{
 
 #tegnologias{
     width: 100%;
-    height: 50rem;
-   
+    height: 25rem;
+    background-image: url(/imagenes//blanco3.jpg);
+    background-size: cover;
 }
 .tegnologias__container{
-    width: 100%;
+    width: 80%;
     height: 80%;
     display: flex;
     flex-direction: column;
@@ -367,7 +421,7 @@ ul{
 
 .tegnologias__h3 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-top: 2rem;
 
 }
@@ -391,9 +445,11 @@ ul{
 }
 
 .teg__carta{
-    background-color: rgba(30,30,30);
-    width: 7rem;
-    height: 7rem;
+    /* background-color: rgba(30,30,30); */
+    background-image:linear-gradient(0deg,
+    rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(/imagenes/fondo3.jpg);
+    width: 5rem;
+    height: 5rem;
     border-radius: 2rem;
     display: flex;
     flex-direction: column;
@@ -401,44 +457,50 @@ ul{
     justify-content: center;
     transition: all 400ms;
     overflow: hidden;
+    cursor: pointer;
 }
 .teg__carta:hover{
-    background-color:white;
+    /* background-color:white; */
+    background-image: url();
 }
 
 
-.teg__carta h2{
+.teg__carta h3{
     position:absolute;
     display: none;
     transition: all 400ms;
     
 }
-.teg__carta:hover h2{
-    width: 7rem;
-    height: 10rem;
+.teg__carta:hover h3{
+    /* background-color: aqua; */
+    width: 5rem;
+    height: 7rem;
     display:flex;
     justify-content: center;
     padding-bottom: 8rem;
     font-weight: bold;
+   
     
    
 }
 .teg__carta img{
     display: inline-flex;
     justify-content: center;
-    width: 6rem;
-    height: 6rem;
+    width: 3rem;
+    height: 3rem;
 }
  /* modificacion de section contac INICIO*/ 
 #contac{
     width: 100%;
-    height: 16rem;
+    height: 10rem;
 }
 
 .contac__container{
     width: 100%;
     height: 100%;
-    background-color: rgba(30,30,30);
+    background-image:linear-gradient(0deg,
+    rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(/imagenes/fondo3.jpg);
+    /* background-color: rgba(30,30,30); */
     display: flex;
     align-items: center;
     justify-content:space-around;
@@ -447,12 +509,12 @@ ul{
 
 .contac__a img{
     margin: auto;
-    width: 5rem;
-    height: 5rem;
+    width: 3rem;
+    height: 3rem;
 }
 .contac__a img:hover{
-    width: 6rem;
-    height: 6rem;
+    width: 4rem;
+    height: 4rem;
 
 }
 /* modificacion de section contac FINAL*/ 
@@ -467,7 +529,7 @@ ul{
     align-items:flex-end;
 }
 .footer__p{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 

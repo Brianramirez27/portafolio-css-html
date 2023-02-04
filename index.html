@@ -1,232 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portafolio </title>
-    <link rel="stylesheet" href ="./css/index.css">
-    <link rel="stylesheet" href ="./css/resposive.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/resposive.css">
     <script src="https://kit.fontawesome.com/29296ab792.js" crossorigin="anonymous"></script>
-    
+
 
 </head>
-    <body>   
-        <!--esturtura del header - inicio -->
-        <section  id="header">
-            <video  autoplay muted loop  >
-                <source  src="./videos/heder.mp4"type="video/mp4"  >
-             </video>
-            <div class="header__container">
-                <nav class="header__nav">
-                    <input type="checkbox" id="check">
-                    <label for="check" class="check-img"> <i class="fa-solid fa-bars"></i> </label>
-                    <ul class="ul">
-                        <li class="nav__li"><a class="nav__link" href="#header">INICIO</a></li>
-                        <li class="nav__li"><a class="nav__link" href="#sobre-mi">SOBRE MI</a></li>
-                        <li class="nav__li"><a class="nav__link" href="#proyectos">MIS PROYECTOS</a></li>
-                        <li class="nav__li"><a class="nav__link" href="#tegnologias">SKILL</a></li>
-                        <li class="nav__li"><a class="nav__link" href="#contac">CONTACTAME</a></li>
-                    </ul>    
-                </nav>
 
-                <div class="header__titulo">
-                    <h1 >Tecnicó en Programación de Sofware<br>Programador Web </h1>
-                    <a  target="_black" href="./imagenes/HOJA DE VIDA Brayan Ramirez  2022.pdf">
-                        <button class="button_cv" >CURRICULUM</button>
-                    </a>   
+<body>
+    <!--esturtura del header - inicio -->
+    <section id="header">
+        <video autoplay muted loop>
+            <source src="./videos/heder.mp4" type="video/mp4">
+        </video>
+        <div class="header__container">
+            <nav class="header__nav">
+                <input type="checkbox" id="check">
+                <label for="check" class="check-img"> <i class="fa-solid fa-bars"></i> </label>
+                <ul class="ul">
+                    <li class="nav__li"><a class="nav__link" href="#header">INICIO</a></li>
+                    <li class="nav__li"><a class="nav__link" href="#sobre-mi">SOBRE MI</a></li>
+                    <li class="nav__li"><a class="nav__link" href="#proyectos">MIS PROYECTOS</a></li>
+                    <li class="nav__li"><a class="nav__link" href="#tegnologias">SKILL</a></li>
+                    <li class="nav__li"><a class="nav__link" href="#contac">CONTACTAME</a></li>
+                </ul>
+            </nav>
+
+            <div class="header__titulo">
+                <h1>Tecnicó en Programación de Sofware<br>Programador Web </h1>
+            </div>
+        </div>
+    </section>
+    <!--esturtura del header - FINAL -->
+
+
+    <!--esturtura section sobre mi  -INICIO -->
+    <section id="sobre-mi">
+        <div class="sobre-mi__container">
+            <div class="sobre-mi__img">
+                <img src="./imagenes/mia2.jpg">
+            </div>
+            <div class="sobre-mi__descrition">
+                <h1 class="sobre-mi__h1"> Soy<span class="sobre-mi__nombre"> Brayan Ramirez</span></h1>
+                <p class="sobre-mi__p">
+                    Como desarrollador autodidacta desde abril del 2022; He desarrollado varios proyectos personales, 
+                    con los que he podido aprender mejores practicas de programación y nuevas tecnologías.
+                    Con el fin de crecer profesionalmente,
+                </p >
+                <p class="sobre-mi__p"> Actualmente me encuentro cursando un técnico en programación de software en el sena
+                    y realizando mi etapa practica en la empresa ESRI COLOMBIA </p>
+
+                    <p class="sobre-mi__p"> Me gustaría seguir aprendiendo mas sobre sobre el framework nestjs en proyectos que me permitan 
+                        enfrentar nuevos desafíos y poder desarrollar nuevas habilidades y aplicar mejores practicas de programación</p>
+            </div>
+        </div>
+    </section>
+    <!--esturtura section sobre mi  -FINAL -->
+
+
+    <!--esturtura proyectos  INICIO -->
+    <section id="proyectos">
+        <div class="proyectos___container">
+            <h1 class="proyectos__title"> PROYECTOS DE PROGRAMACION</h1>
+            <div class="proyectos__mazo-1">
+                <div class="proyectos__carta one">
+                    <img class="img" src="/imagenes/bloc-1.jpg" alt="">
+                    <div class="car_description">
+                        <h3 class="proyectos__h3">Blog De Motos Basico</h3>
+                        <p class="proyectos__p">
+                            Pagina web de intercambios en la cual el usuario se puede registrarse verificarse ver sus
+                            datos hacer publicacione editar sus publicaciones etc
+                        </p>
+                    </div>
+                    <div class="cart_contac">
+                        <a class="verProyect" href="https://github.com/Brianramirez27/Blog-basic.git" target="_blank" >
+                            <img src="/imagenes/icons/bxl-github.svg" alt="">
+                            <p>Code</p>
+                        </a>
+                        <a class="verProyect">
+                            <img src="/imagenes/icons/compu.svg">
+                            <p>Demo</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="proyectos__carta one">
+                    <img class="img" src="/imagenes/bloc-1.jpg" alt="">
+                    <div class="car_description">
+                        <h3 class="proyectos__h3">Pagina Web De Intercambio</h3>
+                        <p class="proyectos__p">
+                            Pagina web de intercambios en la cual el usuario se puede registrarse verificarse ver sus
+                            datos hacer publicacione editar sus publicaciones etc
+                        </p>
+                    </div>
+                    <div class="cart_contac">
+                        <a class="verProyect" href="https://github.com/Brianramirez27/Exchangecity2.git" target="_blank">
+                            <img src="/imagenes/icons/bxl-github.svg" alt="">
+                            <p>Code</p>
+                        </a>
+                        <a class="verProyect">
+                            <img src="/imagenes/icons/compu.svg">
+                            <p>Demo</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="proyectos__carta one">
+                    <img class="img" src="/imagenes/bloc-1.jpg" alt="">
+                    <div class="car_description">
+                        <h3 class="proyectos__h3">Pagina De Intercambio</h3>
+                        <p class="proyectos__p">
+                            Pagina web de intercambios en la cual el usuario se puede registrarse verificarse ver sus
+                            datos hacer publicacione editar sus publicaciones etc
+                        </p>
+                    </div>
+                    <div class="cart_contac">
+                        <a class="verProyect">
+                            <img src="/imagenes/icons/bxl-github.svg" alt="">
+                            <p>Code</p>
+                        </a>
+                        <a class="verProyect">
+                            <img src="/imagenes/icons/compu.svg">
+                            <p>Demo</p>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </section>
- <!--esturtura del header - FINAL -->
+
+            <div class="proyectos__mazo-2">
+                <div class="proyectos__carta one">
+                    <img class="img" src="/imagenes/bloc-1.jpg" alt="">
+                    <div class="car_description">
+                        <h3 class="proyectos__h3">Pagina De Intercambio</h3>
+                        <p class="proyectos__p">
+                            Pagina web de intercambios en la cual el usuario se puede registrarse verificarse ver sus
+                            datos hacer publicacione editar sus publicaciones etc
+                        </p>
+                    </div>
+                    <div class="cart_contac">
+                        <a class="verProyect">
+                            <img src="/imagenes/icons/bxl-github.svg" alt="">
+                            <p>Code</p>
+                        </a>
+                        <a class="verProyect">
+                            <img src="/imagenes/icons/compu.svg">
+                            <p>Demo</p>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="proyectos__carta one">
+                    <img class="img" src="/imagenes/bloc-1.jpg" alt="">
+                    <div class="car_description">
+                        <h3 class="proyectos__h3">Pagina De Intercambio</h3>
+                        <p class="proyectos__p">
+                            Pagina web de intercambios en la cual el usuario se puede registrarse verificarse ver sus
+                            datos hacer publicacione editar sus publicaciones etc
+                        </p>
+                    </div>
+                    <div class="cart_contac">
+                        <a class="verProyect">
+                            <img src="/imagenes/icons/bxl-github.svg" alt="">
+                            <p>Code</p>
+                        </a>
+                        <a class="verProyect">
+                            <img src="/imagenes/icons/compu.svg">
+                            <p>Demo</p>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="proyectos__carta one">
+                    <img class="img" src="/imagenes/bloc-1.jpg" alt="">
+                    <div class="car_description">
+                        <h3 class="proyectos__h3">Pagina De Intercambio</h3>
+                        <p class="proyectos__p">
+                            Pagina web de intercambios en la cual el usuario se puede registrarse verificarse ver sus
+                            datos hacer publicacione editar sus publicaciones etc
+                        </p>
+                    </div>
+                    <div class="cart_contac">
+                        <a class="verProyect">
+                            <img src="/imagenes/icons/bxl-github.svg" alt="">
+                            <p>Code</p>
+                        </a>
+                        <a class="verProyect">
+                            <img src="/imagenes/icons/compu.svg">
+                            <p>Demo</p>
+                        </a>
+                    </div>
+
+                </div>
 
 
- <!--esturtura section sobre mi  -INICIO -->
-        <section id="sobre-mi">
-            <div class="sobre-mi__container">
-                <div class="sobre-mi__img">
-                    <img src="./imagenes/mia2.jpg">
-                </div>   
-                <div class="sobre-mi__descrition">
-                    <h1 class="sobre-mi__h1"> Soy<span class="sobre-mi__nombre"> Brayan Ramirez</span></h1>
-                    <p class="sobre-mi__p">
-                        Mi nombre es Brayan Ramirez, soy autodidacta, actualmente me desarrollo en el ambito de la programación web, cada vez aprendo nuevas cosas con el fin de ser mejor en mi trabajo. Soy una persona con principios y valores claros, capaz de desempeñar cualquier labor que me sea asignada, organizado y cumplido con los trabajos y requrimientos que me pidan.; buen manejo en el desarrollo de HTML5 y CSS3, dispuesto a adquierir nuevos conocimientos para mi vida personal e intelectual.
-                    </p>
+            </div>
+        </div>
+    </section>
+
+    <!--esturtura proyectos  FINAL -->
+
+
+    <!--esturtura de tegnologias   INICIO -->
+
+    <section id="tegnologias">
+        <h3 class="tegnologias__h3">SKILL</h3>
+        <div class="tegnologias__container">
+            <div class="tegnologias__1">
+
+                <div class="teg__carta">
+                    <h3>PHP</h3>
+                    <img src="./imagenes/icons_skill/php.png" />
+                </div>
+                <div class="teg__carta">
+                    <h3>JAVASCRIPT</h3>
+                    <img src="./imagenes/icons_skill/bxl-javascript.svg" />
+                </div>
+                <div class="teg__carta">
+                    <h3>HTML5</h3>
+                    <img src="./imagenes/icons_skill/html-5.png" />
+                </div>
+                <div class="teg__carta">
+                    <h3> CSS3</h3>
+                    <img src="./imagenes/icons_skill/css-3.png" />
+                </div>
+                <div class="teg__carta">
+                    <h3>GIT</h3>
+                    <img src="./imagenes/icons_skill/bxl-git.svg" />
+                </div>
+                <div class="teg__carta">
+                    <h3>NodeJs</h3>
+                    <img src="./imagenes/icons_skill/bxl-nodejs.svg" />
                 </div>
             </div>
-        </section>
-<!--esturtura section sobre mi  -FINAL -->
 
+            <div class="tegnologias__2">
 
-<!--esturtura proyectos  INICIO -->
-        <section id="proyectos">
-            <div class="proyectos___container">
-                <h1 class="proyectos__title"> PROYECTOS DE PROGRAMACION</h1> 
-                <div class="proyectos__mazo-1">
-                    <div class="proyectos__carta one">
-                        <h3 class="proyectos__h3">BLOCK BASICO</h3>
-                        <p class="proyectos__p">
-                            Block basico en el cual se utliza css,html,php,mysql,el ususario se puede registrar aser login crear publicaciones actualizar los datos registrados ,en proceso de terminacion queda muy pocas cosas por terminar 
-                        </p>
-                        <a target="_black" href="https://github.com/Brianramirez27/Blog-basic">
-                            <button class="proyectos__button">
-                                Git-Hub
-                            </button>
-                        </a>
-                    </div>
-                    <div class="proyectos__carta">
-                        <h3 class="proyectos__h3">PROYECTO #2</h3>
-                        <p class="proyectos__p">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad molestiae, dolor voluptate neque suscipit minima quibusdam temporibus fugit rem corporis fugiat, error soluta, libero quam esse aliquam culpa voluptas quidem?
-                        </p>
-                        <a target="_black" href="https://github.com/Brianramirez27">
-                            <button class="proyectos__button">
-                                Git-Hub
-                            </button>
-                        </a>
-                    </div>       
-                    <div class="proyectos__carta">
-                        <h3 class="proyectos__h3">PROYECTO #3</h3>
-                        <p class="proyectos__p">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad molestiae, dolor voluptate neque suscipit minima quibusdam temporibus fugit rem corporis fugiat, error soluta, libero quam esse aliquam culpa voluptas quidem?
-                        </p>
-                        <a target="_black" href="https://github.com/Brianramirez27">
-                            <button class="proyectos__button">
-                                Git-Hub
-                            </button>
-                        </a>
-                    </div>
+                <div class="teg__carta">
+                    <h3>tegnologia</h3>
+                    <img src="./imagenes/python.png" />
                 </div>
-            
-                <div class="proyectos__mazo-2">   
-                    <div class="proyectos__carta">
-                        <h3 class="proyectos__h3">PROYECTO #4</h3>
-                        <p class="proyectos__p">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad molestiae, dolor voluptate neque suscipit minima quibusdam temporibus fugit rem corporis fugiat, error soluta, libero quam esse aliquam culpa voluptas quidem?
-                        </p>
-                        <a target="_black" href="https://github.com/Brianramirez27">
-                            <button class="proyectos__button">
-                                Git-Hub
-                            </button>
-                        </a>
-                    </div>
-                    <div class="proyectos__carta">
-                        <h3 class="proyectos__h3">PROYECTO #5</h3>
-                        <p class="proyectos__p">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad molestiae, dolor voluptate neque suscipit minima quibusdam temporibus fugit rem corporis fugiat, error soluta, libero quam esse aliquam culpa voluptas quidem?
-                        </p>
+                <div class="teg__carta">
+                    <h3>PHP</h3>
+                    <img src="./imagenes/php.png" />
+                </div><div class="teg__carta">
+                    <h3>PHP</h3>
+                    <img src="./imagenes/php.png" />
+                </div>
 
-                        <a target="_black" href="https://github.com/Brianramirez27">
-                            <button class="proyectos__button">
-                                Git-Hub
-                            </button>
-                        </a>
-                    </div>
-                    <div class="proyectos__carta">
-                        <h3 class="proyectos__h3">PROYECTO #6</h3>
-                        <p class="proyectos__p">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad molestiae, dolor voluptate neque suscipit minima quibusdam temporibus fugit rem corporis fugiat, error soluta, libero quam esse aliquam culpa voluptas quidem?
-                        </p>
-                        <a target="_black" href="https://github.com/Brianramirez27">
-                            <button class="proyectos__button">
-                                Git-Hub
-                            </button>
-                        </a>
-                    </div>
-                </div>    
+                <div class="teg__carta">
+                    <h3>tegnologia</h3>
+                    <img src="./imagenes/python.png" />
+                </div>
+                <div class="teg__carta">
+                    <h3>tegnologia</h3>
+                    <img src="./imagenes/python.png" />
+                </div>
+                <div class="teg__carta">
+                    <h3>tegnologia</h3>
+                    <img src="./imagenes/python.png" />
+                </div>
             </div>
-        </section>
-
-<!--esturtura proyectos  FINAL -->        
-
-
-<!--esturtura de tegnologias   INICIO -->
-
-        <section id="tegnologias">
-            <h3 class="tegnologias__h3">SKILL</h3>
-            <div class="tegnologias__container">
-                <div class="tegnologias__1"> 
-                    
-                    <div class="teg__carta">
-                        <h2>PHP</h2>
-                       <img src="./imagenes/php.png"/>
-                    </div>
-                    <div class="teg__carta" >
-                        <h2>  CSS3</h2>            
-                        <img src="./imagenes/css-3.png"/>
-                    </div>
-                    <div class="teg__carta"> 
-                        <h2>HTML5</h2>           
-                        <img src="./imagenes/html-5.png"/>
-                    </div>
-                    <div class="teg__carta"> 
-                        <h2>MYSQL</h2>           
-                        <img src="./imagenes/mysql.png"/>
-                    </div>
-                </div>
-
-                <div class="tegnologias__2">
-                    
-                    <div class="teg__carta"> 
-                        <h2>tegnologia</h2>          
-                        <img src="./imagenes/python.png"/>
-                    </div >
-                   
-                    <div class="teg__carta"> 
-                        <h2>tegnologia</h2>           
-                        <img src="./imagenes/python.png"/>
-                    </div>
-                    <div class="teg__carta">
-                        <h2>tegnologia</h2>             
-                        <img src="./imagenes/python.png"/>
-                    </div>
-                    <div class="teg__carta"> 
-                        <h2>tegnologia</h2>          
-                        <img src="./imagenes/python.png"/>
-                    </div>
-                </div>
-            </div>    
-<!--esturtura de tegnologias   FINAL -->
+        </div>
+        <!--esturtura de tegnologias   FINAL -->
 
 
-<!--esturtura de contacto   INICIO-->     
+        <!--esturtura de contacto   INICIO-->
 
-        </section>
-<!--esturtura de tegnologias   FINAL-->
+    </section>
+    <!--esturtura de tegnologias   FINAL-->
 
-<!--esturtura de contacto   INICIO--> 
-        <section id="contac">
-            <div class=" contac__container">
+    <!--esturtura de contacto   INICIO-->
+    <section id="contac">
+        <div class=" contac__container">
 
-                <div class="contac__a">
-                    <a target="_black"  href="mailto:brayanramirez4546@gmail.com">
-                        <img class="contac__img" src="./imagenes/gmail.png"/>    
-                    </a>
-                </div>
-
-                <div class="contac__a" >
-                    <a target="_black"  href="https://github.com/Brianramirez27">
-                        <img class="contac__img"src="./imagenes/github.png"/>   
-                    </a>
-                </div>
-                <div class="contac__a">
-                    <a target="_black"  href="https://www.linkedin.com/in/brayan-ramirez-09b887216/">
-                        <img class="contac__img"src="./imagenes/linkedin.png"/>    
-                    </a> 
-                </div> 
+            <div class="contac__a">
+                <a target="_black" href="mailto:brayanramirez4546@gmail.com">
+                    <img class="contac__img" src="./imagenes/gmail.png" />
+                </a>
             </div>
-        </section>  
 
-<!--esturtura de contacto   FINAL--> 
-
-
-<!--esturtura de footer INICIO -->
-
-        <footer id="footer">
-            <p class="footer__p">&copy;Brayan Ramirez</p>
-        </footer>
+            <div class="contac__a">
+                <a target="_black" href="https://github.com/Brianramirez27">
+                    <img class="contac__img" src="./imagenes/github.png" />
+                </a>
+            </div>
+            <div class="contac__a">
+                <a target="_black" href="https://www.linkedin.com/in/brayan-ramirez-09b887216/">
+                    <img class="contac__img" src="./imagenes/linkedin.png" />
+                </a>
+            </div>
+        </div>
         
-<!--esturtura de footer FINAL -->       
+    </section>
 
-    </body>
+    <!--esturtura de contacto   FINAL-->
+
+
+    <!--esturtura de footer INICIO -->
+
+    <!-- <footer id="footer">
+        
+    </footer> -->
+
+    <!--esturtura de footer FINAL -->
+
+</body>
+
 </html>
