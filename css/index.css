@@ -310,6 +310,8 @@ ul{
     
 }
 .proyectos__h3{
+    overflow: hidden;
+    height: 2rem;
     color: blueviolet;
     font-size: 1rem;
    
@@ -355,8 +357,10 @@ ul{
 
 
 .proyectos__p{
+    overflow: hidden;
     color: black;
     font-size: 0.8rem;
+    height: 6rem;
     
 }
 

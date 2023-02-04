@@ -24,7 +24,7 @@
     
     /* responsive section proyectos INICIO*/
         .proyectos__carta{
-            height: 22rem;
+
             width: 10rem;
         }  
         .proyectos__p{
@@ -209,12 +209,20 @@
         
         /* responsive proyectos  nicio*/
 
+        .proyectos__carta {
+            height: 25rem;
+        }
+
         .verProyect img {
             width: 1.7rem;
        }
        .verProyect p{
         font-size: small;
        }
+
+       /* .img{
+        display: none;
+       } */
 
 
 }
