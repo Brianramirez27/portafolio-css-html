@@ -210,7 +210,8 @@
         /* responsive proyectos  nicio*/
 
         .proyectos__carta {
-            height: 25rem;
+            height: 23rem;
+       
         }
 
         .verProyect img {
@@ -220,6 +221,9 @@
         font-size: small;
        }
 
+       .cart_contac{
+        gap:1.5rem;
+       }
        /* .img{
         display: none;
        } */
